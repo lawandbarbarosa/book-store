@@ -32,7 +32,8 @@ const Detail = ({route,navigation}) => {
       <Text style={{fontSize:20,fontWeight:600,color:'white'}}>{selectBook?.book_name}</Text>
       <Feather name="more-horizontal" size={24} color="white" />
       </View>
-      <View style={{backgroundColor:selectBook?.backggroundColor,width:'100%',height:'100%',position:'absolute',opacity:0.9}} />
+      <View style={{backgroundColor:selectBook?.backggroundColor,
+        width:'100%',height:'100%',position:'absolute',opacity:0.9}} />
         <View 
         style={{alignItems:'center',flexDirection:'column',
         justifyContent:'center',marginTop:50}}>
